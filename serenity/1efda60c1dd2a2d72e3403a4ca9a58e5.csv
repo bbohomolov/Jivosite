@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Register user","User succesfully registered","SUCCESS","2017-03-10T09:26:03.087+02:00","0.0","19.17"
-"Register user","User tries to register without password","SUCCESS","2017-03-10T09:25:51.737+02:00","0.0","11.25"
+"Register user","User tries to register without password","SUCCESS","2017-03-10T09:43:37.688+02:00","0.0","11.84"

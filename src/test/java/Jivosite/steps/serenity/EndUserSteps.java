@@ -53,6 +53,6 @@ public class EndUserSteps {
 
     @Step
     public void errors_are_not_shown() {
-        assertThat("Some errors were shown when they shouldn't be.", registrationPage.errors_is_visible(), is(Boolean.FALSE));
+        assertThat("Some error was shown when they shouldn't be.", registrationPage.error_is_visible(), is(Boolean.FALSE));
     }
 }

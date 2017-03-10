@@ -4,7 +4,6 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.FindBys;
 
 @DefaultUrl("https://admin.jivosite.com/autoreg")
 public class RegistrationPage extends PageObject {
@@ -30,8 +29,8 @@ public class RegistrationPage extends PageObject {
     @FindBy(id = "site_url")
     private WebElementFacade siteURLInputField;
 
-    @FindBys(@FindBy(className = "error-wrap"))
-    private WebElementFacade errorMessages;
+    @FindBy(className = "error-wrap")
+    private WebElementFacade errorMessage;
 
     public void enter_to_email_input(String email) {emailInputField.type(email);}
 
@@ -47,7 +46,7 @@ public class RegistrationPage extends PageObject {
 
     public void enter_to_site_url_input(String site) {siteURLInputField.type(site);}
 
-    public boolean errors_is_visible() {
-        return errorMessages.isCurrentlyVisible();
+    public boolean error_is_visible() {
+        return errorMessage.isCurrentlyVisible();
     }
 }

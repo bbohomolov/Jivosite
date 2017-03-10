@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Register user" skipped="0" tests="2" time="30.42" timestamp="2017-03-69 09:25:51"><testcase name="User tries to register without password"/><testcase name="User succesfully registered"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Register user" skipped="0" tests="2" time="29.56" timestamp="2017-03-69 09:45:54"><testcase name="User tries to register without password"/><testcase name="User succesfully registered"/></testsuite>

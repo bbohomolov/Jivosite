@@ -8,7 +8,7 @@ import org.jbehave.core.annotations.When;
 
 public class DefinitionSteps {
     private String VALID_PASSWORD = "Some123";
-    private String VALID_EMAIL = "test@test.com";
+    private String VALID_EMAIL = "test1111@test.com";
     private String URL = "www.test.com";
     private String NAME = "Bohdan";
 

@@ -35,11 +35,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 2],
+                ['Passing', 1],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0],
+                ['Errors',  1],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -68,11 +68,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '2 requirements tested successfully'},
+                {label: '1 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
-                {label: '0} requirements with errors'},
+                {label: '1} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -170,7 +170,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-03-2017 09:25</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-03-2017 09:43</span>
     <br style="clear:left"/>
 </div>
 
@@ -210,8 +210,8 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
                                     <td>2</td>
-                                    <td>2</td>
-                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>1</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -241,8 +241,8 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>2</td>
-            <td>2 (100%)</td>
-            <td>0 (0%)</td>
+            <td>1 (50%)</td>
+            <td>1 (50%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -257,14 +257,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>2</td>
-            <td>2 (100%)</td>
-            <td>0 (0%)</td>
+            <td>1 (50%)</td>
+            <td>1 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">30 seconds</td>
+                <td colspan="5">27 seconds</td>
         </tr>
         </body>
     </table>
@@ -292,24 +292,24 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
 
-                                        <a href="da861398fa5e86e9bc47e53775b7449b.html" class="ellipsis" title="">
+                                        <a href="da861398fa5e86e9bc47e53775b7449b.html" class="ellipsis" title="Timeout exception: Timed out after 50...">
                                             User Succesfully Registered
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="lightgreentext">22</td>
+                                <td class="lightgreentext">16</td>
 
 
-                                <td class="lightgreentext">19.17</td>
+                                <td class="lightgreentext">15.6</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -329,7 +329,7 @@
                                 <td class="lightgreentext">9</td>
 
 
-                                <td class="lightgreentext">11.25</td>
+                                <td class="lightgreentext">11.84</td>
                             </tr>
                         </tbody>
                     </table>
