@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Lookup a definition","Looking up the definition of 'apple'","SUCCESS","2017-03-10T09:05:40.071+02:00","0.0","15.24"
+"Lookup a definition","Looking up the definition of 'pear'","SUCCESS","2017-03-10T09:05:55.388+02:00","0.0","10.95"
+"Register user","User succesfully registered","SUCCESS","2017-03-10T09:26:03.087+02:00","0.0","19.17"
+"Register user","User tries to register without password","SUCCESS","2017-03-10T09:25:51.737+02:00","0.0","11.25"

@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JBehave</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <a
+                    href="dc842cfefc0a1898114cc019ac4a2c53.html">Register User</a>
+                > <a
+                    href="da861398fa5e86e9bc47e53775b7449b.html">User succesfully registered </a>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="d782c44557441225cc92a5e35bf4b23b.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="5f5dee50b3955739bfb580c79f480d2e.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-03-2017 09:26</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Register User </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user
+I want to perform an action
+So that I can achieve a business goal
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">User Succesfully Registered
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="745105fc0c74730bd97eb9a011a9daa3.png" title="Given the user is on Register page" width="960"/>
+                <img src="745105fc0c74730bd97eb9a011a9daa3.png" title="Open register page" width="960"/>
+                <img src="e22051cf30eb57c18bcbecc79af878ab.png" title="When user enter valid password" width="960"/>
+                <img src="5bbc3dd5dca2611a0405f2919df1b483.png" title="Enter password: Some123" width="960"/>
+                <img src="e22051cf30eb57c18bcbecc79af878ab.png" title="Enter password: Some123" width="960"/>
+                <img src="e22051cf30eb57c18bcbecc79af878ab.png" title="Errors are not shown" width="960"/>
+                <img src="scaled_8b3dd48ff4ad8667ddf3921e08783535.png" title="When user enter valid email" width="960"/>
+                <img src="8b3dd48ff4ad8667ddf3921e08783535.png" title="Enter email: bbohomolov@test.com" width="960"/>
+                <img src="8b3dd48ff4ad8667ddf3921e08783535.png" title="Errors are not shown" width="960"/>
+                <img src="scaled_8d880a46a606129114fce455be2feee8.png" title="When press submit button" width="960"/>
+                <img src="8d880a46a606129114fce455be2feee8.png" title="Submit register" width="960"/>
+                <img src="b5554c36f34a937464050415e0c48efb.png" title="Then 'Заполните профиль' page is shown" width="960"/>
+                <img src="b5554c36f34a937464050415e0c48efb.png" title="Check header page: Заполните профиль" width="960"/>
+                <img src="f27600550b87dbc22556285ece2696e2.png" title="When user enter first name" width="960"/>
+                <img src="f27600550b87dbc22556285ece2696e2.png" title="Enter name: Bohdan" width="960"/>
+                <img src="f27600550b87dbc22556285ece2696e2.png" title="Errors are not shown" width="960"/>
+                <img src="9e537d93c2f393e6ca7df9b8ff551ab4.png" title="When user enter url" width="960"/>
+                <img src="9e537d93c2f393e6ca7df9b8ff551ab4.png" title="Enter site: www.test.com" width="960"/>
+                <img src="9e537d93c2f393e6ca7df9b8ff551ab4.png" title="Errors are not shown" width="960"/>
+                <img src="2fb11e68be71baa0a9ed17d64b7c5713.png" title="When press submit button" width="960"/>
+                <img src="scaled_f756f7acf2e84645eed9bc134617d6ec.png" title="Submit register" width="960"/>
+                <img src="scaled_6f7be098a2171fbec1a1b131d2c8ee9d.png" title="Then 'Скачайте приложение' page is shown" width="960"/>
+                <img src="6f7be098a2171fbec1a1b131d2c8ee9d.png" title="Check header page: Скачайте приложение: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.2.2-rc.1</span>
+</div>
+</body>
+</html>
